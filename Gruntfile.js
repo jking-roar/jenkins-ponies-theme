@@ -63,7 +63,6 @@ module.exports = function (grunt) {
                         removeHiddenElems: true,
                         removeEmptyText: true,
                         removeEmptyContainers: true,
-                        removeViewBox: true,
                         cleanUpEnableBackground: true,
                         minifyStyles: true,
                         convertStyleToAttrs: true,
@@ -137,7 +136,7 @@ module.exports = function (grunt) {
     });
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'imagemin', 'less', 'replace', 'cssmin', 'postcss']);
+    grunt.registerTask('default', ['clean', 'imagemin', 'less', 'imageEmbed', 'replace', 'cssmin', 'postcss']);
 
 
 };
