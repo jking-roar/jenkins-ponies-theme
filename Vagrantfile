@@ -5,7 +5,8 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "centos"
+  config.vm.box = "puphpet/centos65-x64"
+  # config.vm.box = "centos"
   config.vm.network :forwarded_port, guest: 8080, host: 8880
   # Provisioning
   provision_cmd = "wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo; " \
