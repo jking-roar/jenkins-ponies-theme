@@ -8,21 +8,13 @@
         <version>1.642.2</version>
     </parent>
 
-    <groupId>com.afonsof.material-theme</groupId>
-    <artifactId>material-theme</artifactId>
-    <version>0.0.1</version>
+    <groupId>com.kingjoshdavid</groupId>
+    <artifactId>ponies-theme</artifactId>
+    <version>0.0.2</version>
     <packaging>hpi</packaging>
 
-    <name>Material Design Theme Plugin</name>
-    <url>https://github.com/jenkins-contrib-themes/jenkins-material-theme</url>
-
-    <developers>
-        <developer>
-            <id>afonsof</id>
-            <name>Afonso F</name>
-            <email>afonso.franca@gmail.com</email>
-        </developer>
-    </developers>
+    <name>Ponies!</name>
+    <url>https://github.com/jking-roar/jenkins-ponies-theme</url>
 
     <repositories>
         <repository>
